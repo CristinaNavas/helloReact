@@ -12,17 +12,12 @@ function App() {
       <h1>Hello World desde React!</h1>
       <img src="src\assets\yoshi.jpg" alt="" />
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi libero saepe exercitationem earum alias recusandae repudiandae nulla! Blanditiis fuga tempora non numquam voluptates nihil explicabo assumenda nostrum alias? Delectus, officiis?</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, aliquam nisi veritatis nobis quae dolores temporibus ducimus delectus eum earum voluptates consequuntur soluta? Deserunt fugit adipisci doloribus vero libero perferendis?</p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
